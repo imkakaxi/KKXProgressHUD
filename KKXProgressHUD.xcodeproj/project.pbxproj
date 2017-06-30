@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F90F651F05F65700625EF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F90F641F05F65700625EF1 /* AppDelegate.m */; };
+		A7F90F681F05F65700625EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F90F671F05F65700625EF1 /* main.m */; };
+		A7F90F6A1F05F65700625EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F90F691F05F65700625EF1 /* Assets.xcassets */; };
+		A7F90F6D1F05F65700625EF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F90F6B1F05F65700625EF1 /* MainMenu.xib */; };
+		A7F90F831F05F6F200625EF1 /* KKActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F90F7C1F05F6F200625EF1 /* KKActivityIndicator.m */; };
+		A7F90F841F05F6F200625EF1 /* KKBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F90F7E1F05F6F200625EF1 /* KKBezierPath.m */; };
+		A7F90F851F05F6F200625EF1 /* KKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F90F801F05F6F200625EF1 /* KKProgressHUD.m */; };
+		A7F90F861F05F6F200625EF1 /* KKProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F90F821F05F6F200625EF1 /* KKProgressIndicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7F90F601F05F65700625EF1 /* KKXProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKXProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F90F631F05F65700625EF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7F90F641F05F65700625EF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7F90F671F05F65700625EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F90F691F05F65700625EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F90F6C1F05F65700625EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7F90F6E1F05F65700625EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F90F7B1F05F6F200625EF1 /* KKActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActivityIndicator.h; sourceTree = "<group>"; };
+		A7F90F7C1F05F6F200625EF1 /* KKActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActivityIndicator.m; sourceTree = "<group>"; };
+		A7F90F7D1F05F6F200625EF1 /* KKBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBezierPath.h; sourceTree = "<group>"; };
+		A7F90F7E1F05F6F200625EF1 /* KKBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBezierPath.m; sourceTree = "<group>"; };
+		A7F90F7F1F05F6F200625EF1 /* KKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressHUD.h; sourceTree = "<group>"; };
+		A7F90F801F05F6F200625EF1 /* KKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressHUD.m; sourceTree = "<group>"; };
+		A7F90F811F05F6F200625EF1 /* KKProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressIndicator.h; sourceTree = "<group>"; };
+		A7F90F821F05F6F200625EF1 /* KKProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressIndicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F90F5D1F05F65700625EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F90F571F05F65700625EF1 = {
+			isa = PBXGroup;
+			children = (
+				A7F90F621F05F65700625EF1 /* KKXProgressHUD */,
+				A7F90F611F05F65700625EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F90F611F05F65700625EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F90F601F05F65700625EF1 /* KKXProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F90F621F05F65700625EF1 /* KKXProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A7F90F631F05F65700625EF1 /* AppDelegate.h */,
+				A7F90F641F05F65700625EF1 /* AppDelegate.m */,
+				A7F90F7A1F05F6DF00625EF1 /* KKXProgressHUD */,
+				A7F90F691F05F65700625EF1 /* Assets.xcassets */,
+				A7F90F6B1F05F65700625EF1 /* MainMenu.xib */,
+				A7F90F6E1F05F65700625EF1 /* Info.plist */,
+				A7F90F661F05F65700625EF1 /* Supporting Files */,
+			);
+			path = KKXProgressHUD;
+			sourceTree = "<group>";
+		};
+		A7F90F661F05F65700625EF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F90F671F05F65700625EF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F90F7A1F05F6DF00625EF1 /* KKXProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A7F90F7B1F05F6F200625EF1 /* KKActivityIndicator.h */,
+				A7F90F7C1F05F6F200625EF1 /* KKActivityIndicator.m */,
+				A7F90F7D1F05F6F200625EF1 /* KKBezierPath.h */,
+				A7F90F7E1F05F6F200625EF1 /* KKBezierPath.m */,
+				A7F90F7F1F05F6F200625EF1 /* KKProgressHUD.h */,
+				A7F90F801F05F6F200625EF1 /* KKProgressHUD.m */,
+				A7F90F811F05F6F200625EF1 /* KKProgressIndicator.h */,
+				A7F90F821F05F6F200625EF1 /* KKProgressIndicator.m */,
+			);
+			name = KKXProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F90F5F1F05F65700625EF1 /* KKXProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F90F711F05F65700625EF1 /* Build configuration list for PBXNativeTarget "KKXProgressHUD" */;
+			buildPhases = (
+				A7F90F5C1F05F65700625EF1 /* Sources */,
+				A7F90F5D1F05F65700625EF1 /* Frameworks */,
+				A7F90F5E1F05F65700625EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKXProgressHUD;
+			productName = KKXProgressHUD;
+			productReference = A7F90F601F05F65700625EF1 /* KKXProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F90F581F05F65700625EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = imkakaxi;
+				TargetAttributes = {
+					A7F90F5F1F05F65700625EF1 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7F90F5B1F05F65700625EF1 /* Build configuration list for PBXProject "KKXProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F90F571F05F65700625EF1;
+			productRefGroup = A7F90F611F05F65700625EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F90F5F1F05F65700625EF1 /* KKXProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F90F5E1F05F65700625EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F90F6A1F05F65700625EF1 /* Assets.xcassets in Resources */,
+				A7F90F6D1F05F65700625EF1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F90F5C1F05F65700625EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F90F861F05F6F200625EF1 /* KKProgressIndicator.m in Sources */,
+				A7F90F851F05F6F200625EF1 /* KKProgressHUD.m in Sources */,
+				A7F90F831F05F6F200625EF1 /* KKActivityIndicator.m in Sources */,
+				A7F90F841F05F6F200625EF1 /* KKBezierPath.m in Sources */,
+				A7F90F681F05F65700625EF1 /* main.m in Sources */,
+				A7F90F651F05F65700625EF1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7F90F6B1F05F65700625EF1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F90F6C1F05F65700625EF1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F90F6F1F05F65700625EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7F90F701F05F65700625EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7F90F721F05F65700625EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KKXProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imkakaxi.KKXProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7F90F731F05F65700625EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KKXProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imkakaxi.KKXProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F90F5B1F05F65700625EF1 /* Build configuration list for PBXProject "KKXProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F90F6F1F05F65700625EF1 /* Debug */,
+				A7F90F701F05F65700625EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F90F711F05F65700625EF1 /* Build configuration list for PBXNativeTarget "KKXProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F90F721F05F65700625EF1 /* Debug */,
+				A7F90F731F05F65700625EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F90F581F05F65700625EF1 /* Project object */;
+}
